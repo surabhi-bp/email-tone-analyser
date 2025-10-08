@@ -16,10 +16,6 @@ EMAIL-TONE-ANALYZER/
 │ ├── style.css # Custom CSS styling
 └── venv/ # Virtual environment (optional)
 
-yaml
-Copy code
-
----
 
 ## ⚡ Features
 - Analyze email tone: Polite, Rude, or Neutral
@@ -27,46 +23,44 @@ Copy code
 - Clean and simple web interface
 - Displays analyzed tone with emojis for easy understanding
 
----
+_________________________________________________________________
 
 ## 🛠 Tech Stack
 - **Backend:** Python, Flask  
 - **Frontend:** HTML, CSS  
 - **Libraries:** TextBlob
 
----
+_________________________________________________________________
 
 ## 🚀 How to Run
 
 1. **Clone the repository**
-```bash
+
 git clone https://github.com/surabhi-bp/email-tone-analyser.git
 cd email-tone-analyser
 Create and activate virtual environment
 
-bash
-Copy code
+2. **Create and activate virtual environment**
 python -m venv venv
 venv\Scripts\activate   # Windows
 # source venv/bin/activate   # Linux/Mac
 Install dependencies
 
-bash
-Copy code
+3. **Install dependencies**
 pip install textblob flask
 Run the Flask app
 
-bash
-Copy code
+4. **Run the Flask app**
 python app.py
-Open your browser at http://127.0.0.1:5000/ and start analyzing emails!
 
-💡 Usage
+5. **Open your browser at http://127.0.0.1:5000/ and start analyzing emails!**
+
+**💡 Usage**
 Enter your email text on the homepage
-
 Click Analyze
-
 View the tone result (Polite 😊, Rude 😠, Neutral 😐) on the result page
 
 📸 Screenshots
-<img width="800" alt="Email Tone Analyzer Screenshot 1" src="https://github.com/user-attachments/assets/ff8d7415-14e6-4e52-8b2f-7930dcdf64ba" /> <img width="800" alt="Email Tone Analyzer Screenshot 2" src="https://github.com/user-attachments/assets/9ce3ea5c-b647-4e11-8efe-4a356906c669" />
+![Email Tone Analyzer Screenshot 1](https://github.com/user-attachments/assets/ff8d7415-14e6-4e52-8b2f-7930dcdf64ba)
+![Email Tone Analyzer Screenshot 2](https://github.com/user-attachments/assets/9ce3ea5c-b647-4e11-8efe-4a356906c669)
+
