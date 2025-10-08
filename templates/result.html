@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tone Result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h2>Original Email:</h2>
+  <p>{{ email }}</p>
+  <h2>Detected Tone: {{ tone }}</h2>
+  <a href="/">Analyze Another</a>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email Tone Analyzer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h2>Enter Email to Analyze</h2>
+  <form action="/analyze" method="post">
+    <textarea name="email" placeholder="Paste your email here..."></textarea><br><br>
+    <button type="submit">Analyze Tone</button>
+  </form>
+</body>
+</html>
+
