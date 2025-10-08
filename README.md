@@ -62,7 +62,7 @@ Click Analyze
 View the tone result (Polite 😊, Rude 😠, Neutral 😐) on the result page
 
 📸 Screenshots
-![Email Tone Analyzer Screenshot 1](https://github.com/user-attachments/assets/ff8d7415-14e6-4e52-8b2f-7930dcdf64ba)
+![Screenshot 2025-10-08 195048](https://github.com/user-attachments/assets/d24a797b-7068-4238-a460-121ff999062f)
 ![Email Tone Analyzer Screenshot 2](https://github.com/user-attachments/assets/9ce3ea5c-b647-4e11-8efe-4a356906c669)
 
 
