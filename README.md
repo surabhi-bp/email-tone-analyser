@@ -6,6 +6,7 @@ A simple web app that analyzes the tone of emails using **Python**, **Flask**, a
 
 ## 📂 Project Structure
 
+```
 EMAIL-TONE-ANALYZER/
 │
 ├── app.py # Main Flask application
@@ -15,6 +16,7 @@ EMAIL-TONE-ANALYZER/
 ├── static/
 │ ├── style.css # Custom CSS styling
 └── venv/ # Virtual environment (optional)
+```
 
 
 ## ⚡ Features
@@ -23,14 +25,13 @@ EMAIL-TONE-ANALYZER/
 - Clean and simple web interface
 - Displays analyzed tone with emojis for easy understanding
 
-_________________________________________________________________
 
 ## 🛠 Tech Stack
 - **Backend:** Python, Flask  
 - **Frontend:** HTML, CSS  
 - **Libraries:** TextBlob
 
-_________________________________________________________________
+
 
 ## 🚀 How to Run
 
@@ -63,4 +64,5 @@ View the tone result (Polite 😊, Rude 😠, Neutral 😐) on the result page
 📸 Screenshots
 ![Email Tone Analyzer Screenshot 1](https://github.com/user-attachments/assets/ff8d7415-14e6-4e52-8b2f-7930dcdf64ba)
 ![Email Tone Analyzer Screenshot 2](https://github.com/user-attachments/assets/9ce3ea5c-b647-4e11-8efe-4a356906c669)
+
 
